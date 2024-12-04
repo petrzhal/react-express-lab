@@ -1,0 +1,78 @@
+.hall-list {
+  margin: 20px;
+  max-width: 800px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hall-list-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+  text-align: center;
+}
+
+.search-sort-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px; 
+}
+
+.sort-select {
+  padding: 8px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.details {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit {
+  background-color: #ffc107;
+}
+
+.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.loading,
+.error {
+  color: red;
+  font-weight: bold;
+}
